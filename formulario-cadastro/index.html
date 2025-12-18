@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- 
+formulario de cadastro
+1. nome
+2. email
+3. sexo
+4. data de nascimento
+
+validação
+1. nome devera ter ser nome e sobrenome
+2. email dera conter @ e .com
+3. sexo devera ser "M" || "F" || Masculino || MASCULINO || Feminino || FEMININO
+4. data de nascimento devera ser formato <pt-br>
+-->
+ <main>
+    <div id="form">
+    <h1>Formulário - Cadastro</h1>
+    <form action="#" method="post" id="formCadastro">
+
+        <label for="username">
+            Nome
+        </label>
+        <input type="text" name="username" id="username" placeholder="Digite seu nome:">
+        
+         <label for="email">
+            Email
+        </label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email:">
+        
+         <label for="sexo">
+            Sexo
+        </label>
+
+        <input type="" name="sexo" id="sexo" placeholder="Feminino">
+        
+
+         <label for="data">
+            Data de Nascimento
+        </label>
+        <input type="datetime-local" name="data" id="data" placeholder="Digite sua data de nascimento:">
+        
+
+        <div id="button">
+        <button id="enviar">Enviar </button>
+        <button type="reset" id="limpar"> Limpar </button>
+        </div>
+    </form>
+    </div>
+    </main>
+    
+    <script src="script.js"></script>
+    
+
+</body>
+</html>
