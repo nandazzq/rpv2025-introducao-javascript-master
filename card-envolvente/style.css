@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+#card{
+    background-color:rgb(255, 255, 255) ;
+    height: 520px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 50px  rgba(0, 0, 0, 0.2);
+    img{
+        width: 100%;
+    }
+}
+
+#titulo{
+    h1{
+       text-align: center;
+        margin-top: 15px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        font-size: 22px;
+        /* font-family: "Montserrat"; */
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(8, 8, 54, 0.829);
+
+        
+    }
+}
+
+#descricao{
+    p{
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(78, 76, 97, 0.61);
+        
+    }
+}
+
+#descricao2{
+    margin-top: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+#botao1{
+    /* color: rgb(194, 2, 130); */
+    button{
+        color: rgb(101, 12, 119);
+        border: none;
+        background: none;
+        
+    }
+}
+
+#botao2{
+    button{
+        color: rgb(101, 12, 119);
+        border: none;
+        background: none;
+    }
+}
+
+#posicionar{
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    margin-right: 120px;
+    
+    
+
+}
